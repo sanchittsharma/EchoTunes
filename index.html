@@ -1,0 +1,99 @@
+
+    <!DOCTYPE html>
+    <html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="/css/style.css">
+        <link rel="stylesheet" href="/css/utility.css">
+        <title>Echo Tune-web player</title>
+        <link rel="icon" href="/Img/favicon.ico" type="image/x-icon">
+    </head>
+
+    <body>
+            
+        <div class="container flex bg-black">
+            <div class="left ">
+                <div class="close">
+                    <img src="close.png" alt="">
+                </div>
+                <div class="home bg-grey rounded m-1 p-1">
+                    <div class="logo"><img width="30%" class="" src="/Img/logo.png" alt="echo tune"></div>
+                    <ul>
+                        <li><img class="invert" src="home.svg" alt="home">Home</li>
+                        <!-- <li><img class="search invert" src="search.png" alt="Search">Search</li> -->
+                    </ul>
+                </div>
+                <div class="library bg-grey rounded m-1 p-1">
+                    <div class="heading">
+                        <img class="invert" src="library.svg" alt="library">
+                        <h2>
+                            Your library
+                        </h2>
+                    </div> 
+                    <div class="songlist">
+                        <ul>
+
+                        </ul>
+                    </div>
+                    <div class="footer">
+                        <div><a href="/html/legal.html"><span>legal</span></a></div>
+                        <div><a href="/html/about_us.html"><span>About us</span></a></div>
+                        <div><a href="/html/privacy.html"><span>privacy policy</span></a></div>
+                        <div><a href="/html/cookies.html"><span>cookies</span></a></div>
+                        <div><a href="/html/accessibility.html"><span>accessibility</span></a></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="right bg-grey rounded ">
+                <div class="header">
+                    <div class="nav">
+                        <div class="hamburgercontainer">
+                            <img class="hamburger" src="hamburger.png" alt="">
+                            <img class="invert lbtn" src="/left.png" alt="left">
+                            <img class="invert rbtn" src="/right.png" alt="left">
+
+                            <img src="/Img/search.png" class="search">
+                            <input type="text" id="search" placeholder="search for artist">
+                        </div>
+                    </div>
+                    <div class="button">
+                        <button class="signupbtn" onclick="window.location.href='http://localhost/nikphp/registration.php' ">signup </button>
+                        <button class="loginbtn" onclick="window.location.href='http://localhost/nikphp/login.php' ">login </button>
+                    </div>
+                </div>
+                <div class="playlist">
+                    <h1>playlists for you</h1>
+                    <div class="cardbox">
+                        
+                    </div>
+
+                    <div class="playbar">
+                        <div class="seekbar">
+                            <div class="circle"></div>
+                        </div>
+                        <div class="abovebar">
+                            <marquee behavior="scroll" direction="left">
+                                <div class="songinfo">
+
+                                </div>
+                            </marquee>
+                            <div class="songbuttons">
+                                <img id="prev" class="size" src="playlist/prev song.png" alt="" srcset="">
+                                <img id="play" class="psize" src="playlist/play song.png" alt="" srcset="">
+                                <img id="next" class="size" src="playlist/next song.png" alt="" srcset="">
+                            </div>
+                            <div class="songtime"></div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <script src="/java script/script.js"></script>
+    </body>
+
+    </html>

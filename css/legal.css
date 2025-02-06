@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: hsl(0deg 0% 7.06%);
+}
+h1{
+    color: azure;
+    background-color: rgba(0, 0, 0, 0.203);
+    padding: 4%;
+    font-size:300%;
+    margin-bottom: 1%;
+    border-bottom-right-radius: 80%;
+}
+h2{
+    color: rgb(212, 212, 212);
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+p{
+    color: antiquewhite;
+    margin-top: 1%;
+}
